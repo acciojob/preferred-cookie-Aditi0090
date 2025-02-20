@@ -1,9 +1,12 @@
 :root {
-  --fontsize: 16px;
-  --fontcolor: #000000;
+    --fontsize: 16px;
+    --fontcolor: #000000;
 }
 
 body {
-  font-size: var(--fontsize);
-  color: var(--fontcolor);
+    font-size: var(--fontsize);
+    color: var(--fontcolor);
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    transition: all 0.3s ease-in-out;
 }
